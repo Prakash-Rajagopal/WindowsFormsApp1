@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
             string s="insert into Test(Id,Name)values('"+txtId.Text.ToString()+"','"+txtName.Text.ToString()+"')";
             SqlCommand cmd = new SqlCommand(s, con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("Insert Successful");
+            MessageBox.Show("Insert Successfully");
         }
     }
 }
